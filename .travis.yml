@@ -10,7 +10,7 @@ python:
 
 before_install:
   - sudo apt-get -y -qq update
-  - sudo apt-get install -y -qq ffmpeg
+  - sudo apt-get install -y -qq ffmpeg imagemagick
 
   # Ensure PIP is up-to-date to avoid warnings.
   - python -m pip install --upgrade pip
